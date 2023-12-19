@@ -6,7 +6,6 @@
     <title>Culinary Clues</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./Assets/BrandLogo.png">
-    <script src="script.js"></script>
 </head>
 <body>
     <div id="header1">
@@ -25,38 +24,114 @@
     </div>
 
     <div id="mainSection">
-        <hr id="shortLineTopRandom" class="ShortLine">
+       
+        <hr>
         <h1 id="randomMeals">Random Meal</h1>
         <hr id="shortLineBottomRandom" class="ShortLine">
-        <div id="containerRandomItems" class="container">
+
+        <div id="containerRandomItems" class="container1">
+            <img src="./Assets/food.png" alt="food" id="foodImage">
+            <h1 id="foodTitle">Mexican Chicken</h1>
+            <button id="recipebutton">View Recipe</button>
         </div>
+
         <hr id="longLine">
         <div id="hiddenSection">
-
+            
             <hr id="shortLineTopSearched" class="ShortLine">
             <h1 id="searchedMeals">Searched Meal</h1>
             <hr id="shortLineBottomSearched" class="ShortLine"> 
         
-            <div id="flexItems">
+            <!-- <div id="flexItems">
                 <div id="searchedSection">
                     <div class="container">
+                        <img src="./Assets/food.png" class="foodSearched">
+                        <p class="foodnameSearched">Mexican Chicken</p>
                     </div>
                     <div class="container">
+                        <img src="./Assets/food.png" class="foodSearched">
+                        <p class="foodnameSearched">Mexican Chicken</p>
+                    </div> 
+                    <div class="container">
+                        <img src="./Assets/food.png" class="foodSearched">
+                        <p class="foodnameSearched">Mexican Chicken</p>
                     </div>
                     <div class="container">
-                    </div>
-                    <div class="container">
+                        <img src="./Assets/food.png" class="foodSearched">
+                        <p class="foodnameSearched">Mexican Chicken</p>
                     </div>
                 </div>        
-            </div>
+            </div> -->
+
+            <section class="cards-container container flex" id="cards-container">  
+                <div class="card flex" id="popular-card">
+                    <div class="card-image">
+                        <img src="./Assets/food.png" alt="">
+                    </div>
+                    <div id="card-text">
+                        <h3>Mexican Chicken</h3>
+                    </div>
+                </div>
+
+                <div class="card flex" id="popular-card">
+                    <div class="card-image">
+                        <img src="./Assets/food.png" alt="">
+                    </div>
+                    <div id="card-text">
+                        <h3>Mexican Chicken</h3>
+                    </div>
+                </div>
+
+                <div class="card flex" id="popular-card">
+                    <div class="card-image">
+                        <img src="./Assets/food.png" alt="">
+                    </div>
+                    <div id="card-text">
+                        <h3>Mexican Chicken</h3>
+                    </div>
+                </div>
+
+                <div class="card flex" id="popular-card">
+                    <div class="card-image">
+                        <img src="./Assets/food.png" alt="">
+                    </div>
+                    <div id="card-text">
+                        <h3>Mexican Chicken</h3>
+                    </div>
+                </div>
+
+                <div class="card flex" id="popular-card">
+                    <div class="card-image">
+                        <img src="./Assets/food.png" alt="">
+                    </div>
+                    <div id="card-text">
+                        <h3>Mexican Chicken</h3>
+                    </div>
+                </div>
+            </section>
+
         </div>
     </div>
 
-    <div id="modal"></div>
+    <div id="modal">
+        <button id="cancelButton"><span id="cancelIcon">X</span></button>
+        <h1 id="ingredients">INGREDIENTS</h1>
+        <hr>
+        <img src="./Assets/food.png" id="foodModal" alt="food">
+        <p id="foodNameModal">Mexican Chicken</p>
+        <ol id="list">
+            <li>vrv</li>
+            <li>rvr</li>
+            <li>rvrv</li>
+            <li>rvrv</li>
+            <li>rvrv</li>
+            <li>rvrr</li>
+            <li>rvrv</li>
+            <li>rvrv</li>
+        </ol>
+    </div>
     
-    <footer>
-        <h1 id="footerContent">Made by Rushikesh Zope</h1>
-    </footer>
+    <script src="script.js"></script>   
 
 </body>
 </html>
