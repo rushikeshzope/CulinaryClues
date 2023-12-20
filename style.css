@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Kavoon&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Kavoon&family=Lilita+One&family=Roboto:wght@300&display=swap');
 
 body {
@@ -247,7 +246,7 @@ body {
 
 .foodnameSearched{
     position: absolute;
-    margin-top: 35vh;
+    margin-top: 30vh;
     color: #4B3737;
     font-family: 'Kavoon';
     font-size: 1.2em;
