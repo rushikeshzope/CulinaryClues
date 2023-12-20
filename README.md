@@ -6,7 +6,9 @@ Deployed Link -> https://rushikeshzope.github.io/CulinaryClues/
 
 Screenshots of the website -> https://drive.google.com/drive/u/1/folders/1HWs28KKGI9YG4-yBI0zV5-38fT2gHZ7B
 
-Video of Design for Developers -> https://www.loom.com/share/9f84358a073f4fae8e678b2d7944c382?sid=5fdf39de-4a87-4046-a612-3625a1541eb8
+Video of Design for Developers -> 
+
+https://www.loom.com/share/9f84358a073f4fae8e678b2d7944c382?sid=5fdf39de-4a87-4046-a612-3625a1541eb8
 
 
 References used to build this website:
