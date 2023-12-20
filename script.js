@@ -1,18 +1,22 @@
+// Get references to HTML elements
 var viewRecipeButton = document.getElementById('recipebutton');
 var modal = document.getElementById('modal');
 var cancelButton = document.getElementById('cancelButton');
 const searchBar = document.getElementById('searchBar');
 
+
+//Event for 'View Recipe' button
 viewRecipeButton.addEventListener('click', function() {
     fetchData(); 
     modal.style.display = 'block';
 });
 
+//Event for 'Cancel' button in the modal
 cancelButton.addEventListener('click', function() {
     modal.style.display = 'none';
 });
 
-
+//Function for getting random meal
 async function fetchData(url) {
     try {
         const response = await fetch(url);
@@ -53,11 +57,12 @@ window.addEventListener('load', function() {
     fetchData('https://www.themealdb.com/api/json/v1/1/random.php');
 });
 
+//Function for Searching meal
 searchBar.addEventListener('input', function() {
     const searchTerm = searchBar.value.trim();
 
     if (searchTerm !== '') {
-        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchTerm}`)
+        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchTerm}`) 
             .then(response => response.json())
             .then(data => {
                 const searchedSection = document.getElementById('searchedSection');
