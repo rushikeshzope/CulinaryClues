@@ -10,39 +10,40 @@
 <body>
     <div id="header1">
         <img src="./Assets/BrandLogo.png"id="brandLogo" alt="brandLogo">
-        <img src="./Assets/chefpan.png" id="chefPan" alt="chefPan">
+        <img src="./Assets/chefpan.png" id="headerLeftImage" alt="chefPan">
         <img src="./Assets/burgertoppings.png" id="burgerToppings" alt="burgerToppings">
         <img src="./Assets/sincelogo.png" id="sinceLogo" alt="sinceLogo">
-        <p id="headerContent">Delicious and appetizing Recipes with <span id="CulinaryClues">Culinary Clues</span></p>
+        <p id="header1Text">Delicious and appetizing Recipes with <span id="CulinaryCluesText">Culinary Clues</span></p>
     </div>
 
     <div id="header2">
         <img src="./Assets/paperbg.png" id="paperbg" alt="">
-        <p id="paperbgcontent">Culinary Clues, a leading online platform that brings the joy of cooking to your fingertips. Our website offers a vast collection of meticulously curated recipes, ranging from quick weeknight meals to gourmet delights, catering to all tastes and skill levels. With easy-to-follow instructions, vibrant visuals, and helpful tips, our goal is to empower home cooks to explore their culinary creativity. Join our vibrant community of food enthusiasts, and let's embark on a flavorful adventure together!</p>
+        <p id="header2Text">Culinary Clues, a leading online platform that brings the joy of cooking to your fingertips. Our website offers a vast collection of meticulously curated recipes, ranging from quick weeknight meals to gourmet delights, catering to all tastes and skill levels. With easy-to-follow instructions, vibrant visuals, and helpful tips, our goal is to empower home cooks to explore their culinary creativity. Join our vibrant community of food enthusiasts, and let's embark on a flavorful adventure together!</p>
         <input type="search" name="search" id="searchBar" placeholder="Search Your Recipe">
         <img src="./Assets/fryingpan.png" id="fryingPanIcon" alt="fryingPanIcon">
     </div>
 
     <div id="mainSection">
        
-        <hr>
+        <hr id="shortLineTopRandom" class="ShortLine">
         <h1 id="randomMeals">Random Meal</h1>
         <hr id="shortLineBottomRandom" class="ShortLine">
 
-        <div id="containerRandomItems" class="container1">
+        <div id="containerRandomItems" class="container">
             <img src="./Assets/food.png" alt="food" id="foodImage">
             <h1 id="foodTitle">Mexican Chicken</h1>
             <button id="recipebutton">View Recipe</button>
         </div>
 
         <hr id="longLine">
-        <div id="hiddenSection">
             
-            <hr id="shortLineTopSearched" class="ShortLine">
-            <h1 id="searchedMeals">Searched Meal</h1>
-            <hr id="shortLineBottomSearched" class="ShortLine"> 
+        <hr id="shortLineTopSearched" class="ShortLine">
+        <h1 id="searchedMeals">Searched Meal</h1>
+        <hr id="shortLineBottomSearched" class="ShortLine"> 
         
-            <!-- <div id="flexItems">
+        <div id="hiddenSection">    
+        
+            <div id="flexItems">
                 <div id="searchedSection">
                     <div class="container">
                         <img src="./Assets/food.png" class="foodSearched">
@@ -61,57 +62,8 @@
                         <p class="foodnameSearched">Mexican Chicken</p>
                     </div>
                 </div>        
-            </div> -->
-
-            <section class="cards-container container flex" id="cards-container">  
-                <div class="card flex" id="popular-card">
-                    <div class="card-image">
-                        <img src="./Assets/food.png" alt="">
-                    </div>
-                    <div id="card-text">
-                        <h3>Mexican Chicken</h3>
-                    </div>
-                </div>
-
-                <div class="card flex" id="popular-card">
-                    <div class="card-image">
-                        <img src="./Assets/food.png" alt="">
-                    </div>
-                    <div id="card-text">
-                        <h3>Mexican Chicken</h3>
-                    </div>
-                </div>
-
-                <div class="card flex" id="popular-card">
-                    <div class="card-image">
-                        <img src="./Assets/food.png" alt="">
-                    </div>
-                    <div id="card-text">
-                        <h3>Mexican Chicken</h3>
-                    </div>
-                </div>
-
-                <div class="card flex" id="popular-card">
-                    <div class="card-image">
-                        <img src="./Assets/food.png" alt="">
-                    </div>
-                    <div id="card-text">
-                        <h3>Mexican Chicken</h3>
-                    </div>
-                </div>
-
-                <div class="card flex" id="popular-card">
-                    <div class="card-image">
-                        <img src="./Assets/food.png" alt="">
-                    </div>
-                    <div id="card-text">
-                        <h3>Mexican Chicken</h3>
-                    </div>
-                </div>
-            </section>
-
+            </div>
         </div>
-    </div>
 
     <div id="modal">
         <button id="cancelButton"><span id="cancelIcon">X</span></button>
